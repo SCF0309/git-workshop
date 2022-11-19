@@ -8,6 +8,8 @@ git status 是查看狀態
 
 git diff b.txt 是查看更改狀態
 
+git restore b.txt 是反悔
+
 restore 反悔(此動作必須在commit前執行)
 
 ctrl+s儲存
