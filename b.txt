@@ -1,0 +1,5 @@
+add加入
+
+commit ==> 真的做出一個版本來 commit id
+
+q =quit離開
