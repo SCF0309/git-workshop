@@ -25,3 +25,11 @@ git rm a.txt
 # 只從 git 中刪除，硬碟中想要保留這個檔案
 git rm --cached b.txt
 在commit前都有救回機會
+
+
+# 已經 git init 過的 repo，把 master 改成 main
+git branch 改 master-> main
+git branch -m master main
+更改全域分支
+git config --global init.defaultBranch main
+
