@@ -28,8 +28,20 @@ git rm --cached b.txt
 
 
 # 已經 git init 過的 repo，把 master 改成 main
+git branch 查看所有分支
 git branch 改 master-> main
 git branch -m master main
 更改全域分支
 git config --global init.defaultBranch main
+
+# 建立 feat-login 分支
+git branch feat-login
+# 切換到 feat-login
+git switch feat-login
+// 編輯 b.txt 加上一些文字
+git commit -am "finish login"
+# 切換回去 main 分支
+git switch main
+# 切換回去 main 分支 -> 會發現剛剛在 feat-login 的修改都不見了
+git switch main
 
