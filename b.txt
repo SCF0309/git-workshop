@@ -3,3 +3,10 @@ add加入
 commit ==> 真的做出一個版本來 commit id
 
 q =quit離開
+
+git status 是查看狀態
+
+git diff b.txt 是查看更改狀態
+
+ctrl+s儲存
+ctrl+w關閉
