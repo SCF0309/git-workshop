@@ -14,3 +14,14 @@ restore 反悔(此動作必須在commit前執行)
 
 ctrl+s儲存
 ctrl+w關閉
+
+從git 中刪除檔案
+# 刪除檔案: git 跟硬碟都刪除
+git rm a.txt
+復原git restore --staged b.txt
+第二步git restore b.txt
+檔案即可復原
+
+# 只從 git 中刪除，硬碟中想要保留這個檔案
+git rm --cached b.txt
+在commit前都有救回機會
